@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+public slots:
+    void on_startButton_clicked();
 };
 #endif // MAINWINDOW_H
